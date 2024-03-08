@@ -1,0 +1,30 @@
+.newcollections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  overflow-x: hidden;
+}
+.newcollections h1 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600px;
+}
+.newcollections hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: #252525;
+}
+.collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  gap: 30px;
+}
